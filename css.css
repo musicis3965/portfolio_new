@@ -1,0 +1,35 @@
+body { 
+  background: url("bricks-459299_960_720.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#about-image {
+  /* Positioning */
+  float: left;
+
+  /* Box-model */
+  width: 200px;
+  margin: 0 20px 10px 0;
+}
+
+.block {
+  background: url("water-block.png");
+  padding: 60px;
+  margin-bottom: 30px;
+  border-radius: 25px;
+}
+
+.block-header {
+  /* Typography */
+  color: #000000;
+  font-family: Georgia, Times, "Times New Roman", serif;
+  font-weight: bold;
+}
+
+.href {
+  color: black;
+  
+}
